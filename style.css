@@ -1,0 +1,922 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.529);
+    z-index: 1;
+}
+
+.nav{
+    width: 100%;
+    height:60px;
+    background-color:white;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 8px 0px;
+    position: sticky;
+    top:0%;
+    z-index:99;
+
+}
+  
+.nav img{
+    padding-inline: 50px;
+}
+
+.nav-links{
+    padding-inline: 50px;
+}
+
+
+.nav a{
+    text-decoration: none;
+    margin: 40px;
+    color: grey;
+
+}
+
+.fa-headphones{
+    margin:30px ;
+}
+
+video{
+    position:absolute;
+    top: 0%;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+    object-fit: cover;
+    z-index:-1;
+}
+
+.hero-text{
+    height:92vh ;
+    display: flex;
+justify-content: center;
+    flex-direction:column;
+    padding-left:100px;
+}
+
+.hero-text button{
+    width: 10%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.hero-text button:hover{
+    background-color:#ffc107;
+    
+}
+
+h1{
+    font-size: 100px;
+}
+
+.btn{
+    display: flex;
+     gap: 20px;
+}
+
+#container-second{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#container-second img{
+    width: 50%;
+    margin-block: 20px;
+}
+
+#container-second p{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+#container-third{
+    width: 100%;
+    height:100vh;
+    background-color: black;
+    background-image:url(/image/energy.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 60px;
+
+}
+
+.third-left p{
+    width: 50%;
+ text-align: start;
+ display: flex;
+ justify-content: center;
+ font-size: 20px;
+ margin-block:20px;
+
+}
+
+.third-left h4{
+    font-size: 30px;
+    margin-block: 20px;
+}
+
+.third-left button{
+    width: 20%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.third-left button:hover{
+    background-color:#ffc107;
+}
+
+.third-right{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.third-right li{
+    font-size: 30px;
+    margin-block: 20px;
+    list-style:none;
+}
+
+#container-four{
+    width: 100%;
+    height: auto;
+    background-color: #d2ab67;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.container-box{
+    width: 80%;
+    height: 80vh;
+    background-color: black;   
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box-text{
+    width:30% ;
+    padding: 20px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.box-text p{
+    font-size: 16px;
+    width: 100%;
+    color: black;
+    text-align:start;
+    margin-block: 20px;
+}
+
+.box-text button{
+    width: 40%;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: grey;
+}
+  
+.box-text button:hover{
+    background-color: #c7af44e7;
+}
+
+
+.box-img{
+    width:100%;
+    height:80vh;
+    background-image: url(/image/RIlFoundationImg04_1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#container-five{
+    width: 100%;
+    height:auto;
+    background-color:#0d6efd;
+    padding: 40px;
+
+}
+
+  .five-text{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 20px; 
+  }
+.main-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+  .heading{
+    width: 50%;
+    padding: 30px;
+  }
+
+  .heading h1{
+    font-size: 70px;
+  }
+
+  .heading p{
+    font-size: 18px;
+    margin-block: 20px;
+  }
+
+  .heading button{
+    width: 40%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+  }
+
+   #container-seventh{
+    width: 100%;
+    height:100vh;
+    background-color:  #fdf2df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #container-seventh img{
+    width: 80%;
+    height: 90vh;
+    padding-block: 30px;
+   }
+
+   .fa-play{
+    font-size: 40px;
+
+   }
+
+   #container-eigth{
+    width: 100%;
+    height:300px;
+    background-color: #d2ab67;
+    padding-inline: 100px;
+    padding-block: 40px;
+    color: white;
+    display: flex;
+    align-items:start;
+    /* justify-content: start; */
+    flex-direction:column;
+  }
+  
+   h2{
+    font-size: 40px;
+  }
+  
+  #container-eigth button{
+    width: 30%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    margin-block: 15px;
+  }
+ 
+
+  #main-nineth{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid rgb(149, 148, 148);
+  }
+  
+  
+  .subscribe {
+    width: 40%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 60px;
+  }
+  
+  .subscribe p{
+    font-size: 20px;
+    color: black;
+  }
+  
+  
+  
+  label{
+    width: 100%;
+    height:50px;
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    border: 1px solid gray;
+    
+    
+  }
+  
+  input{
+    width: 80%;
+    height:40px ;
+    border: none;
+    padding-inline: 30px;
+    border-radius: 5px;
+  }
+  
+  label  button{
+    width: 20%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top:4%;
+    right:0% ;
+    bottom:0%;
+    background-color: #d2ab67;
+    
+  }
+  
+  label button:hover{
+    background-color: #0d6efd;
+  }
+  
+  .icon{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    font-size: 40px;
+    padding-inline: 50px;
+    gap: 10px;
+    color:white;
+  }
+
+
+  #main-footer{
+    width: 100%;
+    height: auto;
+    padding:40px ;
+  background-color: white;
+  border-bottom: 1px solid rgb(145, 143, 143);
+    color: black;
+  
+    
+  
+  }
+  
+  .min-footer{
+    display: flex; 
+    justify-content: space-evenly;
+  }
+  
+  .footer li{
+    list-style: none;
+    color: black;
+  }
+  
+  li span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-block:20px;
+    color: black;
+  }
+  
+  li{
+    margin-block:10px ;
+  }
+    
+  
+  
+  #main-ten
+  {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+    #main-ten p{
+        color: black;
+    }
+
+  .policy{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .policy p{
+    margin: 10px;
+  }
+  
+  #container-sixth{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  #container-sixth h2{
+    font-size: 48px;
+    color: #444;
+  }
+  
+  .announcement-container{
+    width: 100%;
+    height: 600px;
+    margin-block: 20px;
+    display: flex;
+    
+    justify-content: space-between;   
+  }
+
+.announcement-text{
+  width:50%;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.announcement-text p{
+    color: black;
+    font-size: 20px;
+    margin-block: 20px;
+}
+ 
+.announcement-text a{
+  color: #0d6efd;
+}
+
+.announcement-text span{
+  color: black;
+}
+
+
+.announcement-img{
+  width: 50%;
+  height:500px;
+}
+
+.announcement-img img{
+  width: 100%;
+  height: 500px;
+  filter: drop-shadow(10px 20px 20px black);
+}
+
+.box-container{
+  width: 100%;
+  height: 350px;
+  /* background-color: #ffc107; */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.box3{
+
+  width: 100%;
+  height: 370px;
+  /* background-color: #ffc107; */
+  display: flex;
+  flex-direction: row;
+}
+
+.box4{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* margin-block: 20px; */
+    
+}
+  
+.box4 h3{
+  color: black;
+}
+
+.box4 .date{
+  padding-block: 20px;
+  color: #0d6efd;
+  
+}
+
+.box-three{
+  width: 90%;
+  height: 250px;
+  background-color: aqua;
+  margin: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-three:first-child{
+  background-image: url(/image/ril-press_0.jpg);
+}
+
+.box-three:nth-child(2){
+  background-image: url(/image/ril-press_0.jpg);
+}
+
+.box-three:nth-child(3){
+  background-image: url(/image/logo_jio.jpg);
+}
+
+
+
+.container-tan {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0d6efd;
+}
+
+.header h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.content-ten {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.notices, .investor-documents, .stock-prices {
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.notice-item, .doc-item, .stock-item {
+  margin-bottom: 20px;
+}
+
+.notice-item p, .doc-item p, .stock-item p {
+  margin: 5px 0;
+}
+
+.know-more {
+  color: #FFD700;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.know-more:hover {
+  text-decoration: underline;
+}
+
+.stock-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+
+}
+   
+.stock-item{
+  width:80% ;
+  height:270px ;
+  border: 1PX solid white;
+  padding: 30px;
+
+}
+
+.doc-item{
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+  font-size: 20px;
+  margin-block: 45px;
+
+}
+
+.notice-item            {
+  font-size: 22px;
+  
+}
+
+.notice-item  p:first-child{
+  color: #d2ab67;
+  margin-block: 30px;
+}
+
+.down {
+  color: red;
+  font-weight: bold;
+}
+
+
+#container-eleven{
+  width: 100%;
+  height:100vh ;
+  display: flex;
+  align-items: center;
+  background-color: #d2ab67;
+
+}
+
+.left-text{
+  width: 50%;
+  height: 90vh;
+  color: white;
+  padding-inline:100px;
+}
+
+.left-text h1{
+  font-size: 60px;
+  padding-block:60px;
+}
+.left-text h6{
+  font-size: 30px;
+  padding-block:30px;
+}
+
+.left-text p{
+  text-align:start;
+  font-size: 25px;
+}
+
+.btn2{
+  
+  padding-block: 40px;
+} 
+
+.left-text button{
+  width: 40%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.right-image{
+  width: 40%;
+  height: 70vh;
+  
+  padding-inline:30px;
+}
+
+.right-image img{
+  width: 45%;
+}
+
+img:nth-child(2){
+  position: relative;
+  bottom:8% ;
+  right: 0%;
+  left:5%;
+}
+
+img:nth-child(3){
+  width: 50%;
+  position: relative;
+  right: 5%;
+  bottom: 5%;
+}
+
+img:nth-child(4){
+  position: relative;
+  bottom:5% ;
+  right: 2%;
+}  
+
+
+@media(max-width:768px){
+    .nav a{
+        display: none;
+    }
+
+    .hero-text h1{
+        font-size: 50px;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .hero-text button{
+        width: 20%;
+        height: 30px;
+    }
+
+    #container-second img{
+        width: 60%;
+        margin-block: 20px;
+    }
+
+    #container-second p{
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        margin-block: 20px;
+      }
+
+      #container-third{
+        justify-content: center;
+      }
+
+      .third-left{
+        display: none;
+      }
+      .third-right{
+        width: 70%;
+       }
+
+       .container-box{
+        flex-direction: column;
+       }
+
+       .box-text{
+        width: 100%;
+        height:400px ;
+       }
+
+       .box-text img{
+        width: 30%;
+       }
+     
+       .five-text{
+        width:80%;
+        height:50px ;
+        background-color:rgba(0, 0, 0, 0.548);
+        border: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+        padding-inline: 30px;
+        border-radius: 30px;
+        border: 1px solid grey;
+       }
+      
+         .heading{
+            width: 100%;
+         }
+
+      .main-heading{
+        flex-direction: column;
+      }
+       
+      #container-seventh{
+        width:100%;
+        height:70vh ;
+      } 
+
+      #container-seventh img{
+        width: 70%;
+        height: 60vh;
+       }
+         
+       #container-eigth{
+        height: 200px;
+       }
+
+       #container-eigth h2{
+        font-size: 23px;
+        
+       }
+
+       #container-eigth button{
+        width: 30%;
+        height: 30px;
+       }
+      
+      .subscribe{
+        width: 100%;
+      
+        justify-content: center;
+        align-items: center;
+       }
+
+       .subscribe p{
+        width: 100%;
+        margin-block: 20px;
+       }
+       input{
+        width: 100%;
+         
+       }
+
+       .icon{
+        display: none;
+       }
+        
+        #main-footer{
+        display: none;
+       }
+   
+       #container-sixth{
+           width: 100%;
+           height: 170vh;
+       }
+
+       .announcement-container{
+        width: 100%;
+          display: flex;
+          flex-direction:column-reverse;
+       }
+    
+       .announcement-text{
+        width: 100%;
+        /* height:200px ; */
+        justify-content: center;
+       } 
+
+       .announcement-img{
+        width: 100%;
+        height: 100px;
+        margin-block: 20px;
+       }
+
+       .announcement-img img{
+        width: 100%;
+        height:400px ;
+       }
+
+       .box4{
+        gap:20px ;
+        font-size:16px ;
+       }
+
+
+       .content-ten {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .notices, .investor-documents, .stock-prices {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .stock-item{
+      width: 60%;
+      height: 300px;
+    }
+
+   
+
+    #container-eleven{
+      flex-direction: column;
+      height:auto;
+    }
+    .left-text{
+      width: 100%;
+      height: auto;
+    }
+
+    .right-image{
+      width: 70%;
+    }
+  }
