@@ -115,7 +115,7 @@ h1{
     width: 100%;
     height:100vh;
     background-color: black;
-    background-image:url(/image/energy.jpg);
+    background-image:url(./image/energy.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -216,7 +216,7 @@ h1{
 .box-img{
     width:100%;
     height:80vh;
-    background-image: url(/image/RIlFoundationImg04_1.jpg);
+    background-image: url(./image/RIlFoundationImg04_1.jpg);
     background-position: center;
     background-size: cover;
 
@@ -557,15 +557,15 @@ h1{
 }
 
 .box-three:first-child{
-  background-image: url(/image/ril-press_0.jpg);
+  background-image: url(./image/ril-press_0.jpg);
 }
 
 .box-three:nth-child(2){
-  background-image: url(/image/ril-press_0.jpg);
+  background-image: url(./image/ril-press_0.jpg);
 }
 
 .box-three:nth-child(3){
-  background-image: url(/image/logo_jio.jpg);
+  background-image: url(./image/logo_jio.jpg);
 }
 
 
