@@ -557,15 +557,15 @@ h1{
 }
 
 .box-three:first-child{
-  background-image: url(./image/ril-press_0.jpg);
+  background-image: url("./image/ril-press_0.jpg");
 }
 
 .box-three:nth-child(2){
-  background-image: url(./image/ril-press_0.jpg);
+  background-image: url("./image/ril-press_0.jpg");
 }
 
 .box-three:nth-child(3){
-  background-image: url(./image/logo_jio.jpg);
+  background-image: url("./image/logo_jio.jpg");
 }
 
 
