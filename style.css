@@ -550,7 +550,7 @@ h1{
 .box-three{
   width: 90%;
   height: 250px;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin: 10px;
   background-position: center;
   background-size: cover;
